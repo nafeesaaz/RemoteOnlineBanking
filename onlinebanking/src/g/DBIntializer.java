@@ -6,3 +6,4 @@ String CON_STRING="jdbc:oracle:thin:@localhost:1521:xe";
 String USERNAME="system";
 String PASSWORD="system";
 }
+//First change
