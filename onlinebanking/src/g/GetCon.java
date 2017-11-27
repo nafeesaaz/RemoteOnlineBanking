@@ -14,6 +14,7 @@ static{
 	} catch (SQLException e) {
 	
 		System.out.println("Exception in GetCon");
+		System.out.println("Changes");
 	}
 	
 }
