@@ -5,10 +5,13 @@ private GetCon(){}
 
 public static Connection con;
 static{
-	try {
+	try
+	{
 		Class.forName(DBIntializer.DRIVER);
 		con=DriverManager.getConnection(DBIntializer.CON_STRING,DBIntializer.USERNAME,DBIntializer.PASSWORD);
-	} catch (ClassNotFoundException e) {
+	} 
+	catch (ClassNotFoundException e) 
+	{
 		
 		e.printStackTrace();
 	} catch (SQLException e) {
